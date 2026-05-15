@@ -1,7 +1,7 @@
 # [ICML 2026] Ensembling Sparse Autoencoders
 This repository provides the code to run the framework presented in the paper on [Ensembling Sparse Autoencoders](https://arxiv.org/pdf/2505.16077). We show that ensembling sparse autoencoders improves the activation reconstruction while promoting feature stability, and downstream performance. 
 
-![Concept Figure](./figures/concept_fig.pdf)
+![Concept Figure](./figures/concept_fig.png)
 
 ## Dataset
 The Pile dataset used for training the SAEs can be obtained from [here](https://huggingface.co/datasets/monology/pile-uncopyrighted). To cache the activations, run the following command:
