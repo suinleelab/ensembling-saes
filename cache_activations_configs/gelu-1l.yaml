@@ -1,0 +1,12 @@
+model:
+  model_name: gelu-1l
+  hook_name: blocks.0.hook_resid_post
+  hook_layer: 0
+  d_in: 512
+  model_batch_size: 128
+
+dataset:
+  dataset_path: monology/pile-uncopyrighted
+  context_size: 1024
+  training_tokens: 8_000_000
+  split: test

@@ -1,0 +1,19 @@
+architecture: topk
+activation_fn_kwargs: {"k": 128}
+model_name: pythia-160m
+hook_name: blocks.8.hook_resid_post
+hook_layer: 8
+context_size: 2048
+use_cached_activations: True
+dataset_path: monology/pile-uncopyrighted
+cached_activations_path: <PATH_TO_CACHED_ACTIVATIONS>
+d_in: 768
+training_tokens: 800_000_000
+train_batch_size_tokens: 10000
+seed: 43
+expansion_factor: 21
+lr: 0.0003
+log_to_wandb: True
+wandb_log_frequency: 1
+eval_every_n_wandb_logs: 5000000000
+dead_feature_threshold: 0.0001

@@ -1,0 +1,8 @@
+params:
+  # seed: [42, 43, 44, 45, 46, 47, 49]
+  # l1_coefficient: [ 0.5, 10.0, 30.0]
+  l1_coefficient: [0.0005, 0.1, 0.5, 1.0, 2.0, 4.0, 8.0, 10.0, 20.0]
+  expansion_factor: [4, 8, 16]
+
+cuda_available_devices: [0,2,3,5,1]
+total_test_tokens: 8_000_000

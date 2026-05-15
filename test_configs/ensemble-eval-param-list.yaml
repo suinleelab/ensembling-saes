@@ -1,0 +1,5 @@
+train_seeds: [42, 43, 44, 46]
+max_saes_in_ensemble: 8
+metrics_to_evaluate: ['connectivity', 'mse', 'l0', 'explained_variance', 'diversity']
+cuda_available_devices: [3, 4, 5]
+total_test_tokens: 7_000_000

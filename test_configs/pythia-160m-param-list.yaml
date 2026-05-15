@@ -1,0 +1,10 @@
+params:
+  k: [128]
+  lr: [0.0003]
+  expansion_factor: [21]
+  seed: [1, 2, 3, 4]
+
+  # seed: [43]
+
+cuda_available_devices: [0, 1, 2, 3]
+total_test_tokens: 7_000_000

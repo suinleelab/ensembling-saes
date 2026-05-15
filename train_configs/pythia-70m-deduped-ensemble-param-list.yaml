@@ -1,0 +1,6 @@
+params:
+  seed: [0, 8, 16, 24, 42]
+
+ensembling_method: boosting
+cuda_available_devices: [0]
+num_train_saes: 8

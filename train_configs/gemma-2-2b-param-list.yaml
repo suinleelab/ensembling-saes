@@ -1,0 +1,9 @@
+params:
+  l1_coefficient: [0.005, 0.1, 0.5, 0.75, 2.0]
+  # lr: [0.0003]
+  # expansion_factor: [7]
+  seed: [44, 46, 47]
+
+ensembling_method: boosting
+num_train_saes: 8
+cuda_available_devices: [1, 2, 3]

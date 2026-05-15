@@ -1,0 +1,12 @@
+model:
+  model_name: pythia-70m-deduped
+  hook_name: blocks.4.hook_resid_post
+  hook_layer: 4
+  d_in: 512
+  model_batch_size: 128
+
+dataset:
+  dataset_path: monology/pile-uncopyrighted
+  context_size: 128
+  training_tokens: 100_000_000
+  split: train

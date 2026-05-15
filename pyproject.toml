@@ -1,0 +1,8 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff.lint]
+exclude = ["*.ipynb"]
+ignore = ["E203", "E501", "E731", "F722", "E741", "F821", "F403", "ARG002"]
+select = ["UP", "TID", "I", "F", "E", "ARG", "SIM", "RET", "LOG", "T20"]
